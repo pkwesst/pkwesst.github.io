@@ -168,7 +168,7 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 0.9em;
+  font-size: 1em;   /* 인용 폰트 크기 */
   background: $code-background-color;
   border-radius: $border-radius;
 
