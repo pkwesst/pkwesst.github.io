@@ -14,7 +14,7 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "Pretendard-Medium" !default;
+$sans-serif: "Pretendard-Regular" !default;
   /*-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; */
 /* bold-font */
@@ -36,7 +36,7 @@ $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif-bold !default; /*$sans-serif*/
-$caption-font-family: $serif !default;
+$caption-font-family: $sans-serif-bold !default; /* $serif */
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
