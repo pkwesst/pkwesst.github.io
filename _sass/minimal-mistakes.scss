@@ -41,10 +41,17 @@
 
 /* Font style */
 @import url('https://fonts.googleapis.com/css2?family=Mukta+Malar&display=swap'); /* code font */
-/* main font */
+/* main-text font */
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 500;
+    font-style: normal;
+}
+/* title font */
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
 }
