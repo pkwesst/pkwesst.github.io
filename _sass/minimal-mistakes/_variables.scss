@@ -17,11 +17,8 @@ $serif: Georgia, Times, serif !default;
 $sans-serif: "Pretendard-Regular" !default;
   /*-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; */
-/* bold-font */
-$sans-serif-bold: "Pretendard-SemiBold" !default;
 
-$monospace: 'Mukta Malar', sans-serif !default;
-/*코드 */
+$monospace: 'Mukta Malar', sans-serif !default; /*코드 */
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -34,9 +31,9 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: $sans-serif-bold !default; /* $sans-serif */
-$header-font-family: $sans-serif-bold !default; /* $sans-serif */
-$caption-font-family: $sans-serif-bold !default; /* $serif */
+$global-font-family: $sans-serif !default; 
+$header-font-family: $sans-serif !default; 
+$caption-font-family: $serif !default; 
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
