@@ -127,6 +127,9 @@ blockquote {
 /* links */
 
 a {  
+  
+  text-decoration-line: none;
+  
   &:focus {
     @extend %tab-focus;
   }
