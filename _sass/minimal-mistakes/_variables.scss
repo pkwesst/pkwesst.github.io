@@ -13,12 +13,9 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: "Pretendard-Regular" !default;
-  /*-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; */
-
-$monospace: 'Biryani', sans-serif !default; /*코드 */
+$serif: 'Pretendard-Regular', Georgia, Times, serif !default;
+$sans-serif: 'Pretendard-Regular' !default; /*-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; */
+$monospace: 'Fira Code', monospace !default; /*코드 */
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
