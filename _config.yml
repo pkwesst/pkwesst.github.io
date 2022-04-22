@@ -291,4 +291,4 @@ defaults:
       classes: wide
       toc: true # 목차
       sidebar_main: true
-      future: true
+      futrue: true
