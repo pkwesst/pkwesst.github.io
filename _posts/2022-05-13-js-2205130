@@ -1,0 +1,127 @@
+---
+layout: single
+title: "[JS] Template literals"
+categories: JavaScript
+tag: [JavaScript]
+
+toc: true
+toc_sticky: true
+published: true
+future: true
+
+date: 2022-05-13
+last_modified_at: 2022-05-13
+
+---
+
+## #1. 따옴표
+
+- 작은따옴표와 큰따옴표의 기능은 동일
+
+```jsx
+let single = '작은따옴표';
+let double = "큰따옴표";
+```
+
+<br />
+
+### ✅ 백틱(`)
+
+- `여러 줄로 이뤄진 문자열` 기능 사용 가능
+
+```jsx
+let seasons = `Seasons :
+ * Spring
+ * Summer
+ * Fall
+ * Winter
+`;
+
+alert(seasons); // 계절 리스트를 여러 줄에 걸쳐 작성함
+```
+
+<br />
+
+### ✅ Template literal(템플릿 리터럴)
+
+- 백틱(`)으로 감싼 문자열 중간에 `${…}`로 감싼 표현식을 넣어 사용
+
+```jsx
+function sum(a, b) {
+  return a + b;
+}
+
+consloe.log(`1 + 2 = ${sum(1, 2)}.`); // 1 + 2 = 3.
+```
+
+<br />
+
+<br />
+
+## #2. 문자열 길이
+
+- length property에 문자열 길이가 저장
+
+```jsx
+console.log('Hello'.length); // 5
+```
+
+<br />
+
+### 💡 `length`는 property
+
+length는 property이기 때문에 str.length()가 아닌 str.length로 사용해야 함
+
+ 
+
+<br />
+
+<br />
+
+## #3. 문자열 추출
+
+### ✅ substr
+
+- `substr(start, length)`
+    - start에 해당하는 인덱스 문자열부터 length개의 글자를 반환
+
+```jsx
+let str = "abcdefg"
+console.log(str.substr(2,4)); // "cdef", 두 번째부터 글자 네 개 
+```
+
+<br />
+
+### ✅ slice
+
+- `slice(start, end)`
+    - start에 해당하는 인덱스 문자열부터 end-1에 해당하는 인덱스 문자열까지 반환
+
+```jsx
+let str = "abcdefg"
+console.log(str.slice(0,4)); // "abcd"
+```
+
+- `slice(start)`
+    - 두 번째 인수가 생략한 경우
+    - start번 째 인덱스부터 문자열 끝까지 반환
+
+```jsx
+let str = "abcdefg"
+console.log(str.slice(3)); // "defg"
+```
+
+<br />
+
+### ✅ substring
+
+- `substring(start, end)`
+    - start에 해당하는 인덱스 문자열부터 end-1에 해당하는 인덱스 문자열까지 반환
+
+### 💡slice와 substring의 차이
+
+- 인덱스 사이의 문자열을 반환하는 것은 동일
+- substring은 start가 end보다 숫자가 커도 됨
+- slice는 음수 인수를 허용하지 않음 ⇒ 빈 문자열 반환
+
+<br />
