@@ -288,7 +288,6 @@ defaults:
       comments: true
       share: false
       related: true
-      classes: wide
       toc: true # 목차
       sidebar_main: true
       future: true
